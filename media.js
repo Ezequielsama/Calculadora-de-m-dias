@@ -67,7 +67,7 @@ function MediaFinal(){
     const media = somasNotas / notas.length;
     const Media_atividade = document.getElementById('MediaFinal');
 
-    Media_atividade.innerHTML = media
+    Media_atividade.innerHTML = media.toFixed(2);
 
     return media
 }
